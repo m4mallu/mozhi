@@ -1,0 +1,24 @@
+{
+    "name": "Mozhi-English Translation Bot",
+    "description": "A simple Malayalam Translation Telegram Bot",
+    "logo": "https://telegra.ph/file/19008e0b8e4c578fcfd86.png",
+    "keywords": ["telegram", "English", "Malayalam", "Translation", "Bot"],
+    "website": "https://github.com/m4mallu/mozhi",
+    "repository": "https://github.com/m4mallu/mozhi",
+    "env": {
+        "TG_BOT_TOKEN": {"description": "Your Bot Token obtained from @botfather", "required": true},
+        "API_HASH": {"description": "Your API Hash obtained from my.telegram.org", "required": true},
+        "APP_ID": {"description": "Your APP ID obtained from my.telegram.org", "required": true},
+        "ENV": {"description": "Set this to ANYTHING", "value": "ANYTHING"}
+    },
+    "buildpacks": [
+        {"url": "heroku/python"}
+        ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "heroku-20"
+}

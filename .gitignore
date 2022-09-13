@@ -1,0 +1,8 @@
+venv
+__pycache__
+config.py
+.idea
+img
+mozhi.session
+mozhi.session-journal
+
