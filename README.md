@@ -1,6 +1,6 @@
 <h1>
     <p align="left">
-        <a href="t.me/rmprojects">മൊഴി (Mozhi)</a>
+        <a href="https://t.me/rmprojects">മൊഴി (Mozhi)</a>
     </p>
 </h1>
 <h3>
